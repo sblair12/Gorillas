@@ -1,0 +1,21 @@
+Classes:
+
+Players
+	Draw players at their locations
+	Output hitbox for both players
+Score
+	Hold score for each player as an int
+	Update score based on output from Win Listener
+Game Board
+	Draw initial game board and set boundaries
+	Update game board based on projectile collision
+Projectile
+	Take in angle and velocity
+	Update projectile location
+Win Listener (main method)
+	If other player is hit, send end game message and who won
+	Determine if number of games played is made
+Interface: Colliding objects
+	Includes players and projectiles
+	Allows each to have collision detection
+	Determine if projectile hits player or game board
